@@ -116,7 +116,7 @@ AcademicAssistant/
 ### 1. Clone and configure
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Srikar62/AcademicAssistant
 cd AcademicAssistant
 
 # Copy environment template and edit as needed
@@ -280,24 +280,6 @@ python -m pytest tests/test_integration.py::TestEndToEndPipeline -v
 | `tests/test_integration.py` | 16 | E2E flows, failure handling, benchmarks |
 | **Total** | **99** | |
 
----
-
-## 📊 Performance Benchmarks
-
-Measured on local dev (mocked external services, real pipeline code):
-
-| Component | Metric | Value |
-|-----------|--------|-------|
-| PDF Parse (3 pages) | avg latency | ~1.8ms |
-| PPTX Parse (3 slides) | avg latency | ~7.5ms |
-| Chunking (50 sections) | total time | ~25ms |
-| Qdrant Upsert (200 chunks) | throughput | ~35k chunks/sec |
-| Full Pipeline (per doc) | end-to-end | ~4.3ms |
-| `/ask` endpoint | p50 latency | ~3.0ms |
-
-> Note: With real services, add network RTT + model inference time (~100ms for embedding, ~1-3s for LLM).
-
----
 
 ## 🛠️ Tech Stack
 
