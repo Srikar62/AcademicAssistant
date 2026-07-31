@@ -1,0 +1,32 @@
+# ═══════════════════════════════════════════════════════════════
+# AI Academic Learning Assistant — Python Dependencies
+# ═══════════════════════════════════════════════════════════════
+# Install: pip install -r requirements.txt
+
+# ─── Web Framework ────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart>=0.0.9
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# ─── Infrastructure Clients ──────────────────────────────────
+minio==7.2.15
+kafka-python-ng==2.2.3
+qdrant-client==1.13.3
+httpx==0.28.1
+
+# ─── Document Processing ─────────────────────────────────────
+PyMuPDF==1.25.5
+python-pptx==1.0.2
+nltk==3.9.1
+tiktoken>=0.7.0
+
+# ─── ML / Embeddings ─────────────────────────────────────────
+numpy==2.2.6
+pandas==2.3.3
+sentence-transformers>=3.0.0
+
+# ─── Testing ─────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.25.2
