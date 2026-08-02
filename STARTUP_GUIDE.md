@@ -204,7 +204,7 @@ cd e:\AcademicAssistant\frontend
 npm install
 
 # Start the dev server
-
+npm run dev
 
 ```
 
