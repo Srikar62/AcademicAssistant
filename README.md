@@ -313,8 +313,3 @@ Measured on local dev (mocked external services, real pipeline code):
 | **LLM** | Groq / OpenAI API (configurable) |
 | **Parsers** | PyMuPDF (PDF), python-pptx (PPTX), NLTK |
 
----
-
-## 📄 License
-
-This project is for academic purposes.
